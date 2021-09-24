@@ -4,10 +4,11 @@ export type Author = {
 };
 
 export type Item = {
+  id: number;
   author: Author;
   title: string;
   image: string;
   created: Date;
-  modified: Date;
+  modified?: Date;
   content: string;
 };
