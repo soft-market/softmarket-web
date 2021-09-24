@@ -1,5 +1,7 @@
+import Home from './routes/Home';
+
 const App = () => {
-  return <main className="app"></main>;
+  return <Home />;
 };
 
 export default App;
